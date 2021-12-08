@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/chushengbajinban/workspace/ws_swarm_robot/devel/include/**",
+                "/home/chushengbajinban/projects/ASLAM/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/chushengbajinban/workspace/ws_swarm_robot/src/swarm_robot_pkgs/aruco_detection/include/**",
+                "/home/chushengbajinban/workspace/ws_swarm_robot/src/swarm_robot_pkgs/ddynamic_reconfigure-kinetic-devel/include/**",
+                "/home/chushengbajinban/workspace/ws_swarm_robot/src/gazebo_swarm_robot_pkgs/gazebo_swarm_robot_tb3/include/**",
+                "/home/chushengbajinban/projects/ASLAM/src/rrt_exploration/include/**",
+                "/home/chushengbajinban/workspace/ws_swarm_robot/src/swarm_robot_pkgs/swarm_robot_tb3/include/**",
+                "/usr/include/**",
+                "/usr/include/eigen3"
+            ],
+            "name": "ROS"
+        }
+    ],
+    "version": 4
+}
