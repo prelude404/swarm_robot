@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="gazebo_swarm_robot_tb3" name="gazebo_swarm_robot_control" type="gazebo_swarm_robot_control" output="screen">
+		<rosparam file="$(find gazebo_swarm_robot_tb3)/cfg/setting.yaml" command="load" /> 
+	</node>
+</launch>
+
+ 

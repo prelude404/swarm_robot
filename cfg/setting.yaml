@@ -1,0 +1,25 @@
+# MAX_W： Maximum angle velocity (rad/s)
+# MIN_W： Minimum angle velocity(rad/s)
+# MAX_V： Maximum linear velocity(m/s)
+# MIN_V： Minimum linear velocity(m/s)
+# k_w： Scale of angle velocity
+# k_v：Scale of linear velocity
+MAX_W: 1
+MIN_W: 0.05
+MAX_V: 0.2
+MIN_V: 0.0
+k_w: 0.1
+k_v: 0.05
+
+# Parameters for Collision Avoidence
+weight_repel: 4.5
+weight_attract: 1.0
+dis_repel: 0.45
+dis_attract: 1.0
+
+## Convergence threshold
+# conv_x： Threshold of x, in m
+# conv_y： Threshold of y, in m
+conv_x: 0.04
+conv_y: 0.0004
+conv_dis: 0.2
